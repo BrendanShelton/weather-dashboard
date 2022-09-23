@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Weather-dashboard</title>
+</head>
+<body>
+    <h1 class="m-4">Weather Dashboard</h1>
+    <div class="container">
+      <!--the search bar and search history-->
+      <section id="searchSection" class="col-2 m-4">
+        <form>
+          <h2>Search for a City:</h2><br>
+          <input type="text" id="cityInput" name="cityInput"><br>
+          <button id="search">Search</button>
+        </form>
+        <div id="searchHistory">
+          
+        </div>
+      </section>
+  
+      <section id="forecastSection" class="col-10">
+        <!--today's weather data-->
+        <div id="today" class="card">
+          <h4 class="card-title"></h4>
+          <p class="card-text">Temp: <span></span></p>
+          <p class="card-text">Wind: <span></span></p>
+          <p class="card-text">Humidity: <span></span></p>
+        </div>
+        
+        <h3>5 day forecast</h3>
+        <!--weather data of the next five days-->
+        <div id="forecast" class="container row">
+          <div class="card col-2">
+            <h4 class="card-title"></h4>
+            <p class="card-text">Temp: <span></span></p>
+            <p class="card-text">Wind: <span></span></p>
+            <p class="card-text">Humidity: <span></span></p>
+          </div>
+          <div class="card col-2">
+            <h4 class="card-title"></h4>
+            <p class="card-text">Temp: <span></span></p>
+            <p class="card-text">Wind: <span></span></p>
+            <p class="card-text">Humidity: <span></span></p>
+          </div>
+          <div class="card col-2">
+            <h4 class="card-title"></h4>
+            <p class="card-text">Temp: <span></span></p>
+            <p class="card-text">Wind: <span></span></p>
+            <p class="card-text">Humidity: <span></span></p>
+          </div>
+          <div class="card col-2">
+            <h4 class="card-title"></h4>
+            <p class="card-text">Temp: <span></span></p>
+            <p class="card-text">Wind: <span></span></p>
+            <p class="card-text">Humidity: <span></span></p>
+          </div>
+          <div class="card col-2">
+            <h4 class="card-title"></h4>
+            <p class="card-text">Temp: <span></span></p>
+            <p class="card-text">Wind: <span></span></p>
+            <p class="card-text">Humidity: <span></span></p>
+          </div>
+          
+        </div>
+        
+      </section>
+    </div>
+    
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/script.js"></script>
+</body>
+</html>
