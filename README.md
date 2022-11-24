@@ -16,6 +16,10 @@ https://brendanshelton.github.io/weather-dashboard/
 
 ![screenshot of website](./assets/weatherDashboard.PNG)
 
+## Technologies used
+
+HTML, CSS, Javascript, Open Weather API, Moment.js
+
 ## Credits
 
 N/A
