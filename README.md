@@ -6,7 +6,7 @@ This application displays the current and forecasted temperature, wind speed, an
 
 ## Installation
 
-N/A
+Clone this repository by opening a terminal in the folder which will hold it and enter "git clone https://github.com/BrendanShelton/weather-dashboard.git"
 
 ## Usage
 
