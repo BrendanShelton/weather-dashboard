@@ -10,7 +10,7 @@ Clone this repository by opening a terminal in the folder which will hold it and
 
 ## Usage
 
-Enter the name of a city in the bar below "Search for a City:" and click on the search button. The weather data for the city entered will be displayed on the right side of the page and the text which the user entered will appear below the search bar where it can be clicked on to search for the same thing again. If the Geocoding API cannot find a city with the name the user entered, then an alert will appear saying so.
+When running locally, open the index.html file in a browser. Enter the name of a city in the bar below "Search for a City:" and click on the search button. The weather data for the city entered will be displayed on the right side of the page and the text which the user entered will appear below the search bar where it can be clicked on to search for the same thing again. If the Geocoding API cannot find a city with the name the user entered, then an alert will appear saying so.
 
 https://brendanshelton.github.io/weather-dashboard/
 
