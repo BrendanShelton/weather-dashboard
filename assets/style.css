@@ -1,7 +1,7 @@
 /*sets the font of all text on the page*/
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(234, 235, 237);
+    background-color: rgb(255, 255, 255);
 }
 
 /*styles the heading*/
